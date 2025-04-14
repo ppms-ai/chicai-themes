@@ -1,1 +1,69 @@
+/* -------------------------------------------
+   ChicAI Modern Theme - clean + elegant
+   ------------------------------------------- */
+
+.sc-chat-window {
+  background-color: #1f1f1f;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 16px;
+  padding: 12px;
+  background-image: none;
+  color: #ffffff;
+}
+
+/* Received messages (Bot) */
+.sc-message--content.received {
+  background-color: #ffffff;
+  color: #222222;
+  border-radius: 12px;
+  padding: 10px;
+  max-width: 80%;
+  font-size: 15px;
+}
+
+/* Sent messages (User) */
+.sc-message--content.sent {
+  background-color: #c59d5f;
+  color: white;
+  border-radius: 12px;
+  padding: 10px;
+  max-width: 80%;
+  font-size: 15px;
+}
+
+/* Input area */
+.sc-user-input {
+  background-color: #ffffff;
+  border-radius: 8px;
+  color: #333;
+  padding: 8px;
+}
+
+/* Input field itself */
+.sc-user-input input {
+  color: #1f1f1f;
+  border: none;
+  padding: 8px;
+}
+
+/* Send icon (you can recolor it if needed) */
+.sc-user-input-send-icon {
+  fill: #c59d5f;
+}
+
+/* Optional Avatar Wrapper - comment this out or update per client */
+.branded-chatbot .ai-avatar-wrapper {
+  position: absolute;
+  left: -90px;
+  top: 60px;
+  width: 100px;
+  height: 100px;
+  z-index: 1000;
+}
+.branded-chatbot .ai-avatar-wrapper img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
 
