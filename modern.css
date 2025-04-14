@@ -3,12 +3,12 @@
    ------------------------------------------- */
 
 .sc-chat-window {
-  background-color: #1f1f1f;
+  background: url('https://storage.googleapis.com/msgsndr/hT6XhVZ1tpQztNIrhXD4/media/67fd902c266b6fb8779418dc.png') no-repeat center center;
+  background-size: cover;
   font-family: 'Poppins', sans-serif;
   border-radius: 16px;
   padding: 12px;
-  background-image: none;
-  color: #ffffff;
+  color: #222;
 }
 
 /* Force bot message bubble color */
