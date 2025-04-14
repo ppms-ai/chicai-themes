@@ -70,18 +70,36 @@
   fill: #c59d5f;
 }
 
-/* Optional Avatar Wrapper */
-.branded-chatbot .ai-avatar-wrapper {
-  position: absolute;
-  left: -90px;
-  top: 60px;
-  width: 100px;
-  height: 100px;
-  z-index: 1000;
+/* Hide avatar unless chat is open */
+.branded-chatbot:not(.sc-open) .ai-avatar-wrapper {
+  display: none;
 }
-.branded-chatbot .ai-avatar-wrapper img {
+
+.ai-avatar-wrapper {
+  position: fixed;
+  bottom: 90px; /* Adjust to sit above the launcher */
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  z-index: 1001;
+  transition: all 0.3s ease;
+}
+
+.ai-avatar-wrapper img {
   width: 100%;
   height: auto;
   border-radius: 50%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
+
+/* Avatar fades in when chat is open */
+.branded-chatbot .ai-avatar-wrapper {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.branded-chatbot.sc-open .ai-avatar-wrapper {
+  opacity: 1;
+  transform: scale(1);
+}
+
