@@ -25,3 +25,21 @@
   background-color: #d1d1d1;
   color: #000000;
 
+/* Bigger text + wider bubbles */
+.sc-message--content {
+  font-size: 17px !important;
+  line-height: 1.6;
+  padding: 14px;
+  max-width: 95% !important;
+  border-radius: 14px;
+}
+
+.sc-user-input input {
+  font-size: 16px !important;
+  padding: 10px 12px;
+}
+
+.sc-chat-window {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
