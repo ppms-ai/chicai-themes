@@ -11,14 +11,16 @@
   color: #ffffff;
 }
 
-/* Received messages (Bot) */
-.sc-message--content.received {
-  background-color: #ffffff;
-  color: #222222;
-  border-radius: 12px;
-  padding: 10px;
-  max-width: 80%;
-  font-size: 15px;
+/* Force bot message bubble color */
+.sc-message--content.received,
+.sc-message--content.received * {
+  background-color: #ffffff !important;
+  color: #222222 !important;
+  font-size: 17px !important;
+  line-height: 1.6 !important;
+  padding: 14px !important;
+  max-width: 95% !important;
+  border-radius: 14px !important;
 }
 
 /* Sent messages (User) */
