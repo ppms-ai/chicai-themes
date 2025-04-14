@@ -1,0 +1,9 @@
+<div class="branded-chatbot">
+  <div class="ai-avatar-wrapper">
+    <img src="https://storage.googleapis.com/msgsndr/hT6XhVZ1tpQztNIrhXD4/media/67fd90ac0fa4ee04ace65053.png" alt="Brand Ambassador" />
+  </div>
+
+  <script src="https://app.promptherai.io/js/chat_plugin_ghl.js" data-bot-id="41491"></script>
+
+  <link rel="stylesheet" href="https://ppms-ai.github.io/chicai-themes/clientname.css">
+</div>
