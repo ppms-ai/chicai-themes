@@ -1,1 +1,37 @@
+/* -------------------------------------------
+   ChicAI Kids Theme - bright + playful
+   ------------------------------------------- */
+
+.sc-chat-window {
+  background: linear-gradient(135deg, #fff3b0, #f6c1d5);
+  font-family: 'Comic Sans MS', 'Comic Neue', cursive;
+  border-radius: 18px;
+  padding: 14px;
+  color: #333333;
+}
+
+/* Bot messages */
+.sc-message--content.received {
+  background-color: #ffffff;
+  color: #444444;
+  border-radius: 20px;
+  padding: 12px;
+  max-width: 85%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* User messages */
+.sc-message--content.sent {
+  background-color: #ffb347;
+  color: white;
+  border-radius: 20px;
+  padding: 12px;
+  max-width: 85%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Input area */
+.sc-user-input {
 
