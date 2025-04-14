@@ -77,19 +77,18 @@
 
 .ai-avatar-wrapper {
   position: fixed;
-  bottom: 90px; /* Adjust to sit above the launcher */
-  right: 30px;
+  bottom: 100px;
+  right: 20px;
   width: 60px;
   height: 60px;
-  z-index: 1001;
-  transition: all 0.3s ease;
+  z-index: 9999;
+  background: pink; /* Temporary just to see it */
 }
 
 .ai-avatar-wrapper img {
   width: 100%;
   height: auto;
   border-radius: 50%;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Avatar fades in when chat is open */
