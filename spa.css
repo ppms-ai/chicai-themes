@@ -1,1 +1,25 @@
+/* -------------------------------------------
+   ChicAI Spa Theme - fresh + calming
+   ------------------------------------------- */
+
+.sc-chat-window {
+  background: linear-gradient(135deg, #e0f7f4, #ffffff);
+  font-family: 'Lato', sans-serif;
+  border-radius: 16px;
+  padding: 12px;
+  color: #2a2a2a;
+}
+
+/* Bot messages */
+.sc-message--content.received {
+  background-color: #ffffff;
+  color: #3e3e3e;
+  border-radius: 12px;
+  padding: 10px;
+  max-width: 80%;
+  font-size: 15px;
+}
+
+/* User messages */
+.sc-message--
 
