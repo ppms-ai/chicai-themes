@@ -3,8 +3,11 @@
    =============================== */
 
 /* Show avatar only when chat is open */
-.sc-launcher:not(.sc-open) ~ .ai-avatar-wrapper {
+.ai-avatar-wrapper {
   display: none;
+}
+.sc-open + .ai-avatar-wrapper {
+  display: block;
 }
 
 /* Avatar Position */
