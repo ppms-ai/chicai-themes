@@ -11,15 +11,17 @@
 }
 
 /* Avatar Position */
+/* Always keep avatar pinned in bottom-right */
 .ai-avatar-wrapper {
   position: fixed;
   bottom: 90px;
-  right: 28px;
+  right: 24px;
   width: 65px;
   height: 65px;
   z-index: 9999;
 }
 
+/* Style the image */
 .ai-avatar-wrapper img {
   width: 100%;
   height: auto;
