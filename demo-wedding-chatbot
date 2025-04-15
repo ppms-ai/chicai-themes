@@ -1,15 +1,16 @@
 /* ===============================
-   CUSTOM CHATBOT STYLING - [Client Name]
+   CUSTOM CHATBOT STYLING - Wedding Demo
    =============================== */
 
-/* Show avatar only when chat is open */
-/* Hide by default */
+/* ==== Avatar Styles ==== */
+
+/* Hide avatar by default */
 .ai-avatar-wrapper {
   display: none;
 }
 
-/* Show when chat is open */
-.sc-open ~ .ai-avatar-wrapper {
+/* Show avatar when chat is open */
+.sc-launcher.sc-open ~ .ai-avatar-wrapper {
   display: block;
   position: fixed;
   bottom: 90px;
@@ -26,43 +27,49 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Chat Window Styling */
+/* ==== Chat Window ==== */
 .sc-chat-window {
-  background-color: #fffbe9;
+  background-color: #fff9f9; /* soft blush background */
   font-family: 'Poppins', sans-serif;
   position: relative;
   padding: 12px;
   border-radius: 16px;
 }
 
-/* Message Bubbles */
+/* ==== Bot Message Bubble ==== */
 .sc-message--content.received,
 .sc-message--content.received * {
   background-color: #ffffff !important;
   color: #333333 !important;
   font-size: 17px;
-  max-width: 95%;
+  line-height: 1.6;
   padding: 14px;
+  max-width: 95%;
   border-radius: 14px;
 }
 
+/* ==== User Message Bubble ==== */
 .sc-message--content.sent {
-  background-color: #c59d5f !important;
+  background-color: #c59d5f !important; /* gold tone */
   color: #ffffff;
   font-size: 17px;
-  max-width: 95%;
+  line-height: 1.6;
   padding: 14px;
+  max-width: 95%;
   border-radius: 14px;
 }
 
-/* Input Field */
+/* ==== Input Field ==== */
 .sc-user-input input {
   font-size: 16px;
   padding: 10px;
   color: #333;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 8px;
 }
 
-/* Send Icon */
+/* ==== Send Icon ==== */
 .sc-user-input-send-icon {
   fill: #c59d5f;
 }
