@@ -3,16 +3,14 @@
    =============================== */
 
 /* Show avatar only when chat is open */
+/* Hide by default */
 .ai-avatar-wrapper {
   display: none;
 }
-.sc-open + .ai-avatar-wrapper {
-  display: block;
-}
 
-/* Avatar Position */
-/* Always keep avatar pinned in bottom-right */
-.ai-avatar-wrapper {
+/* Show when chat is open */
+.sc-open ~ .ai-avatar-wrapper {
+  display: block;
   position: fixed;
   bottom: 90px;
   right: 24px;
@@ -21,7 +19,6 @@
   z-index: 9999;
 }
 
-/* Style the image */
 .ai-avatar-wrapper img {
   width: 100%;
   height: auto;
